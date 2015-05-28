@@ -46,10 +46,6 @@
 									spPeoplePicker.AddUnresolvedUserFromEditor(true);
 								}
 							}
-							else if ((items[n].id == 'ctl00_ctl26_g_8e51f519_6ad7_49c4_b504_e184da9938c7_ctl00_ctl05_ctl00_ctl00_ctl00_ctl04_ctl00__x041a__x043e__x043d__x0442__x040_Hidden')&&(columnTitle == '_x041a__x043e__x043d__x0442__x040'))
-							{
-								items[n].value = value;
-							}
 						}
 						var items = columntd.getElementsByTagName('select');
 						for (n = 0; n < items.length; n++)
